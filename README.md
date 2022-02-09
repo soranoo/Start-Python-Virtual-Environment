@@ -5,7 +5,7 @@ Project start on 25-11-2021 and spin off from my every project as a essential sc
 
 Start virtual environment or create a new one automatically.
 
-### Portal ↠ [Installation](docs/gettingstarted.md#installing-python-package) · [Usage](docs/gettingstarted.md#setting-up-tradingview-alert) ↞
+### Portal ↠ [Getting Started](#getting-started) ↞
 
 ## Features
 * No more create/start virtual environment command needed.
@@ -13,6 +13,7 @@ Start virtual environment or create a new one automatically.
 ## Requirements
 * Python 3.6 or latest (*Developed in Python 3.8.1)
 
+<a name="getting-started"></a>
 ## Getting Started
 Clone the repository and run the `start-env.py`.
 ```
