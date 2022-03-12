@@ -24,4 +24,4 @@ gh repo clone soranoo/Start-Python-Virtual-Environment
 * If the folder includes a file named `requirements.txt`, install the packages which inside the file automatically after the virtual environment is created.
 
 ## Known Issues
-* No known issues
+* Failed when folder included space ([issue #1](https://github.com/soranoo/Start-Python-Virtual-Environment/issues/1))
