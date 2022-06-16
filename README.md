@@ -25,3 +25,7 @@ gh repo clone soranoo/Start-Python-Virtual-Environment
 
 ## Known Issues
 * Failed when folder included space ([issue #1](https://github.com/soranoo/Start-Python-Virtual-Environment/issues/1))
+
+## Other Useful Commands
+* Create `requirements.txt` - `pip freeze -l > requirements.txt`
+* Install `requirements.txt` - `pip install -r requirements.txt`
