@@ -9,23 +9,28 @@ Start virtual environment or create a new one automatically.
 
 ## Features
 * No more create/start virtual environment command needed.
+* Install `requirements.txt` dependencies automatically.
+* Easy create a `requirements.txt` with `$ start-env.py ctxt`.
 
 ## Requirements
 * Python 3.6 or latest (*Developed in Python 3.8.1)
 
 <a name="getting-started"></a>
 ## Getting Started
-Clone the repository and run the `start-env.py`.
+1. Clone the repository
 ```
-gh repo clone soranoo/Start-Python-Virtual-Environment
+$ gh repo clone soranoo/Start-Python-Virtual-Environment
 ```
+2. Copy `start-env.py` to any project directory that you would like to have a virtual environment.
+3. Run `start-env.py` and the script will create a virtual environment for you~
+
+
 
 ## TODO
-* If the folder includes a file named `requirements.txt`, install the packages which inside the file automatically after the virtual environment is created.
+* Waiting for your suggestions~
 
 ## Known Issues
 * Failed when folder included space ([issue #1](https://github.com/soranoo/Start-Python-Virtual-Environment/issues/1))
 
-## Other Useful Commands
-* Create `requirements.txt` - `pip freeze -l > requirements.txt`
-* Install `requirements.txt` - `pip install -r requirements.txt`
+## Useful Commands
+* Create `requirements.txt` - `start-env.py ctxt`
