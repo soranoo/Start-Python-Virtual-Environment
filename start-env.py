@@ -11,7 +11,7 @@ create_env_cmd = f"py -m venv env"
 install_requirements_cmd = f"pip install -r requirements.txt"
 
 def is_env_exist(env_name):
-	return os.path.isdir(os.path.join(os.getcwd(), env_name, 'Scripts'))
+	return os.path.isdir(os.path.join(__location__, env_name, 'Scripts'))
 
 def load_env(extra_cmds = []):
 	if is_env_exist(env_name):
