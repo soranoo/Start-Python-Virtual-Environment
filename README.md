@@ -7,16 +7,16 @@ Start virtual environment or create a new one automatically.
 
 ### Portal ↠ [Getting Started](#getting-started) ↞
 
-## Features
+## :old_key: Features
 * No more create/start virtual environment command needed.
 * Install `requirements.txt` dependencies automatically.
 * Easy create a `requirements.txt` with `$ start-env.py ctxt`.
 
-## Requirements
+## :anchor: Requirements
 * Python 3.6 or latest (*Developed in Python 3.8.1)
 
 <a name="getting-started"></a>
-## Getting Started
+## :space_invader: Getting Started
 1. Clone the repository
 ```
 $ gh repo clone soranoo/Start-Python-Virtual-Environment
@@ -26,11 +26,15 @@ $ gh repo clone soranoo/Start-Python-Virtual-Environment
 
 
 
-## TODO
+## :star: TODO
 * Waiting for your suggestions~
 
-## Known Issues
+## :bug: Known Issues
 * Failed when folder included space ([issue #1](https://github.com/soranoo/Start-Python-Virtual-Environment/issues/1))
 
-## Useful Commands
+## :robot: Useful Commands
 * Create `requirements.txt` - `start-env.py ctxt`
+
+## :coffee: Donation
+
+[!["Donation"](https://raw.githubusercontent.com/soranoo/Donation/main/resources/image/DonateBtn.png)](https://github.com/soranoo/Donation) <- click me~
